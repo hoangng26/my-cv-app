@@ -1,0 +1,35 @@
+.container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .icon {
+    color: var(--color-primary);
+  }
+  h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+.content {
+  ul {
+    padding-left: 30px;
+    list-style-type: disc;
+    li {
+      padding: 5px 0;
+      ul {
+        list-style: circle;
+        padding-left: 20px;
+        li {
+          text-align: justify;
+        }
+      }
+    }
+  }
+}

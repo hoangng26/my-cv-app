@@ -1,0 +1,52 @@
+@import 'normalize.css';
+@import './reset.scss';
+
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --color-icon: #ddd;
+  --color-border: #eee;
+  --color-primary: #4f90cd;
+  --color-secondary: #1dbfaf;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #666;
+  --color-light-gray: #b3b3b3;
+  --color-red: #eb1d36;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  font-weight: 500;
+}
+
+input,
+button,
+[tabindex] {
+  font-family: var(--font-family);
+  border: none;
+  outline: none;
+}
+
+button,
+a[href] {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+a[href] {
+  text-decoration: none;
+}

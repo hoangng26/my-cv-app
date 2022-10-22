@@ -1,0 +1,43 @@
+.avt-container {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.user-avt {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.username-container {
+  padding: 0 20px;
+  position: absolute;
+  top: 275px;
+  h1 {
+    color: var(--color-white);
+    font-size: 24px;
+  }
+}
+
+.info-container {
+  padding: 0 20px;
+  padding-bottom: 20px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .icon {
+    color: var(--color-primary);
+    min-width: none;
+  }
+}
