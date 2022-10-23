@@ -33,7 +33,7 @@ const data = {
   'Work Experience': {
     '2022/09 – present': [
       'DXC Technology Vietnam',
-      'Web Fullstack Developer',
+      'Web Fullstack Developer Intern',
       'Main area: ReactJS, Node, ExpressJS',
       'Level: Good',
     ],
