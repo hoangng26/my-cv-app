@@ -1,0 +1,44 @@
+.container {
+  --border-color: rgba(22, 24, 35, 0.12);
+  --border-color-hover: rgba(22, 24, 35, 0.2);
+  --button-hover: rgba(22, 24, 35, 0.03);
+
+  padding: 7px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  background-color: transparent;
+  color: var(--color-primary);
+  user-select: none;
+
+  + .container {
+    margin-left: 5px;
+  }
+}
+
+.links {
+  padding: 0;
+  font-size: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+.outline {
+  border-color: var(--border-color);
+  &:hover {
+    background-color: var(--button-hover);
+  }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 5px;
+}

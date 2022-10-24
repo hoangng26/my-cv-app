@@ -19,6 +19,7 @@ import Container from '../Container';
 import Image from '../Image';
 
 import styles from './PersonalInfo.module.scss';
+import Button from '../Button';
 
 const cx = classNames.bind(styles);
 
@@ -48,15 +49,17 @@ function PersonalInfo({ className, ...props }) {
           </div>
           <div className={cx('email', 'contact-item')}>
             <FontAwesomeIcon className={cx('icon')} icon={faEnvelope} />
-            <p>{data.PersonalInfo.Email}</p>
+            <Button href={`mailto:${data.PersonalInfo.Email}`}>{data.PersonalInfo.Email}</Button>
           </div>
           <div className={cx('phone', 'contact-item')}>
             <FontAwesomeIcon className={cx('icon')} icon={faPhone} />
-            <p>{data.PersonalInfo.Phone}</p>
+            <Button href={`tel:${data.PersonalInfo.Phone}`}>{data.PersonalInfo.Phone}</Button>
           </div>
           <div className={cx('linkedin', 'contact-item')}>
             <FontAwesomeIcon className={cx('icon')} icon={faLinkedin} />
-            <p>{data.PersonalInfo.Linkedin}</p>
+            <Button href={data.Contact.Linkedin} target="_blank">
+              {data.PersonalInfo.Linkedin}
+            </Button>
           </div>
         </div>
         <CardSmall

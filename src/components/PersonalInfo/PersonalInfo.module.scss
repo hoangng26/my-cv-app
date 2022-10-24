@@ -12,7 +12,10 @@
 .username-container {
   padding: 0 20px;
   position: absolute;
-  top: 275px;
+  top: 35%;
+  @media screen and (min-height: 960px) {
+    top: 26%;
+  }
   h1 {
     color: var(--color-white);
     font-size: 24px;
@@ -38,6 +41,5 @@
   gap: 20px;
   .icon {
     color: var(--color-primary);
-    min-width: none;
   }
 }

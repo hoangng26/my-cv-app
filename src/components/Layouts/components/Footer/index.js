@@ -2,6 +2,8 @@ import { faFacebookSquare, faInstagram, faLinkedin, faPinterest, faTwitter } fro
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
 import React from 'react';
+import data from '~/assets/data';
+import Button from '~/components/Button';
 
 import styles from './Footer.module.scss';
 
@@ -12,21 +14,21 @@ function Footer() {
     <footer className={cx('container')}>
       <p>Find me on Social Media</p>
       <div className={cx('social-links')}>
-        <a href="#!" className={cx('link')}>
+        <Button href={data.Contact.Facebook} target="_blank" className={cx('link')}>
           <FontAwesomeIcon icon={faFacebookSquare} />
-        </a>
-        <a href="#!" className={cx('link')}>
+        </Button>
+        <Button href={data.Contact.Instagram} target="_blank" className={cx('link')}>
           <FontAwesomeIcon icon={faInstagram} />
-        </a>
-        <a href="#!" className={cx('link')}>
+        </Button>
+        <Button href={data.Contact.Twitter} target="_blank" className={cx('link')}>
           <FontAwesomeIcon icon={faTwitter} />
-        </a>
-        <a href="#!" className={cx('link')}>
+        </Button>
+        <Button href={data.Contact.Linkedin} target="_blank" className={cx('link')}>
           <FontAwesomeIcon icon={faLinkedin} />
-        </a>
-        <a href="#!" className={cx('link')}>
+        </Button>
+        <Button href={data.Contact.Pinterest} target="_blank" className={cx('link')}>
           <FontAwesomeIcon icon={faPinterest} />
-        </a>
+        </Button>
       </div>
       <p>
         Powered by <span className={cx('author')}>hoangng26</span>

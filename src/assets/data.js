@@ -46,6 +46,13 @@ const data = {
     'Short-term': ['Becoming a full-stack software developer and have a stable job.'],
     'Long-term': ['Gain more experience, level up my skill and work for major company'],
   },
+  Contact: {
+    Facebook: 'https://www.facebook.com/hoanggng.26/',
+    Instagram: 'https://www.instagram.com/hoangng26._/',
+    Linkedin: 'https://www.linkedin.com/in/hoangng26dev/',
+    Twitter: 'https://twitter.com/_hoangng_2623_',
+    Pinterest: 'https://www.pinterest.com/hoangng26/',
+  },
 };
 
 export default data;
