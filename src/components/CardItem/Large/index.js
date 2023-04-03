@@ -1,7 +1,6 @@
 import { faCalendarDays } from '@fortawesome/free-regular-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames/bind';
-import React from 'react';
 
 import styles from './CardLarge.module.scss';
 

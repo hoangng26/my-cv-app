@@ -1,13 +1,12 @@
-import React from 'react';
 import className from 'classnames/bind';
 
-import styles from './HomePage.module.scss';
-import PersonalInfo from '~/components/PersonalInfo';
-import { CardLarge, Overview } from '~/components/CardItem';
-import data from '~/assets/data';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase, faGraduationCap, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import data from '~/assets/data';
+import { CardLarge, Overview } from '~/components/CardItem';
 import Container from '~/components/Container';
+import PersonalInfo from '~/components/PersonalInfo';
+import styles from './HomePage.module.scss';
 
 const cx = className.bind(styles);
 

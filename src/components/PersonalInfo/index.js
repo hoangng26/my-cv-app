@@ -1,4 +1,3 @@
-import React from 'react';
 import classNames from 'classnames/bind';
 
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -18,8 +17,8 @@ import { CardSmall } from '../CardItem';
 import Container from '../Container';
 import Image from '../Image';
 
-import styles from './PersonalInfo.module.scss';
 import Button from '../Button';
+import styles from './PersonalInfo.module.scss';
 
 const cx = classNames.bind(styles);
 

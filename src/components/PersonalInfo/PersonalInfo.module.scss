@@ -1,6 +1,7 @@
 .avt-container {
   max-height: 300px;
   overflow: hidden;
+  position: relative;
 }
 
 .user-avt {
@@ -12,10 +13,7 @@
 .username-container {
   padding: 0 20px;
   position: absolute;
-  top: 35%;
-  @media screen and (min-height: 960px) {
-    top: 26%;
-  }
+  bottom: 5px;
   h1 {
     color: var(--color-white);
     font-size: 24px;

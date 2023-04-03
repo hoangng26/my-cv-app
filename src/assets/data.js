@@ -26,12 +26,18 @@ const data = {
       'University of Science, Vietnam National University Ho Chi Minh City',
       'Honors Program, Faculty of Information Technology',
       'GPA: 7.1',
-      'Major: Information Technology (Software Developer)',
+      'Major: Information Technology (Software Engineering)',
       'Level: Good',
     ],
   },
   'Work Experience': {
-    '2022/09 – present': [
+    '2022/09/19 – present': [
+      'DXC Technology Vietnam',
+      'Associate Professional Programmer Analyst',
+      'Main area: ReactJS',
+      'Level: Good',
+    ],
+    '2022/09/19 – 2023/03/19': [
       'DXC Technology Vietnam',
       'Web Fullstack Developer Intern',
       'Main area: ReactJS, Node, ExpressJS',
